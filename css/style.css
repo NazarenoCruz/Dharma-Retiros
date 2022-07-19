@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #6C567B;
+    border: solid 5px #C06C84;
+    background-color: #C06C84;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: #6C567B;
+    font-size: 25px;
+    border: solid 5px #C06C84;
+    background-color: #C06C84;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    grid-area: header;
+}
+
+body{
+    background-color: #F8B195;
+}
+
+section p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 90%;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.imgIndex{
+    height: 400px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    border-radius: 5px;
+}
+
+.barraNav{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 1px #C06C84;
+    background-color: #C06C84;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+ol li{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-weight: bolder;
+    list-style-type: square;
+}
+
+.monje{
+    height: 350px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.yoga {
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.mandala{
+    height: 250px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.chakras{
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.caminata {
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.amuleto {
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.playa {
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.redes {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    list-style-type: none;
+    color: #6C567B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 105px;
+    margin-bottom: 20px;
+}
+
+form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: double 5px black;
+}
+
+form label{
+    margin-left: 5px;
+}
+
+form input{
+    margin-left: 2px;
+}
+
+form button{
+    margin-left: 5px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.beneficios {
+    list-style-type: square;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.imgB {
+    height: 450px;
+    width: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nosotros {
+    border: double #6C567B 5px;
+    margin-left: 5px;
+}
+
+.imgNosotros{
+    height: 350px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue; 
+}
+
+.contacto {
+    margin-left: 10px;
+}
+
+textarea{
+    margin-left: 10px;
+}
+
+.card{
+    display: block;
+    margin-top: 50px;
+    border: solid 3px black;
+    background-image: url("https://media.istockphoto.com/vectors/mandala-line-frame-background-vector-id1264393479?k=20&m=1264393479&s=612x612&w=0&h=3idxnqorMHit1j98V_05_V_qPl-GkJWXQk0uAMg2d60=");
+    background-repeat: repeat-x;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.caption{
+    color: #060;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #fff;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 850px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.top{
+    background-color: #060;
+    color: white;
+    font-weight: 700;
+}
+
+.table > div {
+    padding: 12px;
+    text-align: center;
+    border-left: 1px solid #060;
+    border-top: 1px solid #060;
+}
+
+.rightBorder{
+    border-right: 1px solid #060;
+}
+
+.bottomBorder{
+    border-bottom: 1px solid #060;
+}
+
+.leftBorder{
+    border-left: 1px solid #060;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 330px;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.sabiasQue{
+    font-family: 'Poppins', sans-serif;
+    color: #6C567B;
+    font-size: 25px;
+    border: 0px;
+    background-color: #F8B195;
+}
+
+a {
+    text-decoration: none;
+    color: #6C567B;
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas: 
+     "header  header  header"
+     "body    body    body"
+     "table   table   table"
+     "footer  footer  footer";
+     grid-template-rows:225px 2fr 75px;
+     grid-template-columns: 20% auto 15%;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.body {
+    grid-area: body;
+}
+
+.table {
+    grid-area: table;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 97%;
+}
+
+.grilla1 {
+    display: grid;
+    grid-template-areas: 
+     "header  header  header"
+     "info    info    info"
+     "info    info    info"
+     "footer  footer  footer";
+     grid-template-rows:225px 2fr 75px;
+     grid-template-columns: 20% auto 15%;
+}
+
+.info {
+    grid-area: info;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.grilla2 {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "datos  datos  datos"
+    "footer footer footer";
+    grid-template-rows: 200px 2fr 1fr;
+    grid-template-columns: 100%;
+}
+
+.logoRedes{
+    height: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fb{
+    margin-left: 25px;
+}
+.ig{
+    margin-left: 15px;
+}
+.yt{
+    margin-right: 12px;
+}
+.tw{
+    margin-left: 10px;
+}
+@media (max-width:480px) {
+    .grilla{
+        margin: 0;
+        grid-template-areas: 
+        "header"
+        "body"
+        "table"
+        "footer";
+        grid-template-columns: 90vh;
+        grid-template-rows: 2fr;
+    }
+    p{
+     font-family: 'Poppins', sans-serif;
+     font-weight: bolder;
+     text-align: center;
+     font-size: 14px;
+     align-self: center;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-right: 5px;
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    header{
+        position: sticky;
+        top: 0px;
+        grid-area: header;
+        text-align: center;
+    }
+    .imgIndex{
+        height: 400px;
+        width: auto;
+        border-radius: 5px;
+        align-self: center;
+    }
+    .table{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-left: 175px;
+    }
+    .grilla1{
+        margin: 0;
+        grid-template-areas: 
+        "header"
+        "info"
+        "footer";
+        grid-template-columns: 90vh;
+        grid-template-rows: 1fr;
+    }
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        text-decoration: underline;
+        font-size: 25px;
+        text-align: center;
+    }
+    .monje{
+        height: auto;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    .yoga {
+        height: auto;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    .mandala{
+        height: auto;
+        width: 200px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    .chakras{
+        height: auto;
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    .caminata {
+        height: auto;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    .amuleto {
+        height: auto;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    .playa {
+        height: auto;
+        width: 300px;
+        margin-right: 20px;
+        border-radius: 5px;
+        align-self: center;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .barraNav{
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    ol li{
+        font-family: 'Poppins', sans-serif;
+        margin-left: 20px;
+        font-weight: bolder;
+        list-style-type: square;
+        align-self: center;
+    }
+    .footer {
+        grid-area: footer;
+    }
+    .info{
+        grid-area: info;
+    }
+    .beneficios {
+        list-style-type: square;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        color: black;
+        margin-left: 280px;
+    }
+    .imgB {
+        height: 320px;
+        width: auto;
+        border-radius: 5px;
+        align-self: center;
+        margin-right: 70px;
+    }
+    .b1{
+        margin-left: 190px;
+    }
+    .grilla2 {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "datos"
+        "footer";
+        grid-template-rows: 2fr;
+        grid-template-columns: 60vh;
+    }
+    .imgNosotros{
+        height: 350px;
+        width: 740px;
+        display: flex;
+        flex-direction: column;
+    }
+}

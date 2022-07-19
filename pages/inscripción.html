@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Red+Hat+Display:wght@300&display=swap');
+     </style>
+</head>
+<body>
+ <div class="grilla2">
+    <header class="header">
+        <h1>Inscripción</h1>
+        <nav>
+            <ul class="barraNav">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./actividades.html">Actividades</a></li>
+                <li><a href="./beneficios.html"> Beneficios</a></li>
+                <li><a href="./inscripción.html">Inscripción</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="datos">
+      <section>
+        <h2>Ingresá tus datos</h2>
+        <form>
+            <label for="nombre_apellido">Ingrese nombre y apellido</label>
+            <input type="text" name="nombre_apellido" />
+            <br>
+            <label for="edad">Ingrese edad</label>
+            <input type="number" name="edad" />
+            <br>
+            <label for="email">Ingrese su E-mail</label>
+            <input type="text" name="email" />
+            <br>
+            <label for="dni">Ingrese su DNI</label>
+            <input type="text" name="dni">
+            <br>
+            <fieldset>
+                <legend>Seleccione el paquete que desea</legend>
+             <input type="radio" value="pack1">
+             <label for="pack1">7 días, 2 días de descanso + Excursión a Mar del Plata</label>
+             <br>
+             <input type="radio" value="pack2">
+             <label for="pack2">7 días, 2 días de descanso</label>
+             <br>
+             <input type="radio" value="pack3">
+             <label for="pack3">14 días, 4 días de descanso + Excursión a Mar del Plata</label>
+             <br>
+             <input type="radio" value="pack4">
+             <label for="pack4">14 días, 4 días de descanso</label>
+             <br>
+            </fieldset>
+            <label for="pagos">Seleccione un método de pago</label>
+            <select name="pagos">
+                <option value="efectivo">Efectivo</option>
+                <option value="transferencia">Transferencia bancaria</option>
+                <option value="tarjeta">Tarjeta de débito o crédito</option>
+                <option value="mp">MercadoPago</option>
+            </select>
+            <br>
+            <button type="submit">Inscribirse</button>
+        </form>
+        <h4>Si necesitas inscribir a menores u otros miembros de tu familia, no hace falta que hagas este formulario otra vez, nosotros te contactaremos para profundizar en el pago del paquete seleccionado.</h4>
+      </section>
+    </main>
+     <footer class="footer">
+        <div>
+            <ul class="redes">
+                <li><a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            </ul>
+        </div>
+     </footer>
+ </div>
+</body>
+</html>
