@@ -261,6 +261,9 @@ textarea{
     font-size: 25px;
     width: 50%;
     border-radius: 5px;
+    animation-duration: 1s;
+    animation-name: scale-up-center;
+    animation-iteration-count: initial;
 }
 
 .caption{
@@ -420,6 +423,33 @@ a {
 .tw{
     margin-left: 10px;
 }
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
 @media (max-width:480px) {
     .grilla{
         margin: 0;
@@ -472,7 +502,7 @@ a {
         font-family: 'Poppins', sans-serif;
         font-weight: bolder;
         font-size: 20px;
-        margin-left: 175px;
+        margin: 1px;
     }
     .grilla1{
         margin: 0;
@@ -605,5 +635,13 @@ a {
         width: 740px;
         display: flex;
         flex-direction: column;
+    }
+    .container{
+        margin-left: 50px;
+        width: 90%;
+        height: auto;
+    }
+    button{
+        margin-left: 0px;
     }
 }
