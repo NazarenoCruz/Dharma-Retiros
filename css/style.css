@@ -9,7 +9,7 @@ h1{
     color: #6C567B;
     border: solid 5px #C06C84;
     background-color: #C06C84;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -67,13 +67,9 @@ img{
 .barraNav{
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    margin-bottom: 10px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     border: solid 1px #C06C84;
     background-color: #C06C84;
 }
@@ -152,7 +148,7 @@ ol li{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     list-style-type: none;
-    color: #6C567B;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -160,7 +156,7 @@ ol li{
 
 footer{
     margin-top: 105px;
-    margin-bottom: 20px;
+    background-color:#C06C84
 }
 
 form{
@@ -244,7 +240,7 @@ textarea{
     margin-left: 10px;
 }
 
-.card{
+.cardLocal{
     display: block;
     margin-top: 50px;
     border: solid 3px black;
@@ -335,6 +331,10 @@ a {
     color: #6C567B;
 }
 
+li a{
+    color: white;
+}
+
 .grilla {
     display: grid;
     grid-template-areas: 
@@ -396,10 +396,10 @@ a {
 .grilla2 {
     display: grid;
     grid-template-areas: 
-    "header header header"
-    "datos  datos  datos"
-    "footer footer footer";
-    grid-template-rows: 200px 2fr 1fr;
+    "header"
+    "datos"
+    "footer";
+    grid-template-rows: 100px 70vh 2fr;
     grid-template-columns: 100%;
 }
 
@@ -412,13 +412,13 @@ a {
 }
 
 .fb{
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .ig{
-    margin-left: 15px;
+    margin-left: 45px;
 }
 .yt{
-    margin-right: 12px;
+    margin-right: 15px;
 }
 .tw{
     margin-left: 10px;
@@ -627,8 +627,8 @@ a {
         "header"
         "datos"
         "footer";
-        grid-template-rows: 2fr;
-        grid-template-columns: 60vh;
+        grid-template-rows: 20vh;
+        grid-template-columns: 100%;
     }
     .imgNosotros{
         height: 350px;
