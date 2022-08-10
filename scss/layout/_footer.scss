@@ -1,0 +1,36 @@
+.redes {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 105px;
+    background-color:#C06C84
+}
+.footer {
+    grid-area: footer;
+}
+.logoRedes{
+    height: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fb{
+    margin-left: 30px;
+}
+.ig{
+    margin-left: 45px;
+}
+.yt{
+    margin-right: 15px;
+}
+.tw{
+    margin-left: 10px;
+}

@@ -1,0 +1,73 @@
+img{
+    border-radius: 5px;
+}
+
+.imgIndex{
+    height: 400px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    border-radius: 5px;
+}
+.monje{
+    height: 350px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.yoga {
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.mandala{
+    height: 250px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.chakras{
+    height: 280px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.caminata {
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.amuleto {
+    @extend .yoga;
+}
+.playa {
+    @extend .amuleto;
+}
+.imgB {
+    height: 450px;
+    width: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgNosotros{
+    height: 450px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}

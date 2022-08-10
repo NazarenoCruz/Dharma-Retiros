@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #6C567B;
+    border: solid 5px #C06C84;
+    background-color: #C06C84;
+    font-size: 30px;
+    font-weight: bolder;
+}
+header{
+    position: sticky;
+    top: 0px;
+    grid-area: header;
+}
+.barraNav{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid 1px #C06C84;
+    background-color: #C06C84;
+}

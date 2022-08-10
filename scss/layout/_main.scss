@@ -1,0 +1,297 @@
+body{
+    background-image: url("https://img.freepik.com/fotos-premium/templo-hindu-mariamman-o-chua-ba-mariamman-ciudad-ho-chi-minh-vietnam-detalle-gopuram-sobre-entrada-templo-hindu-mariamman-templo-fue-construido-finales-siglo-xix_479694-763.jpg?w=2000");
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    border: 1px solid #f1f1f1;
+}
+.recuadro{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    border: 1px solid #f1f1f1;
+    width: 70%;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: #6C567B;
+    font-size: 25px;
+    font-weight: bold;
+}
+.white{
+    color: white;
+}
+.cardLocal{
+    display: block;
+    margin-top: 50px;
+    border: solid 3px black;
+    background-image: url("https://media.istockphoto.com/vectors/mandala-line-frame-background-vector-id1264393479?k=20&m=1264393479&s=612x612&w=0&h=3idxnqorMHit1j98V_05_V_qPl-GkJWXQk0uAMg2d60=");
+    background-repeat: repeat-x;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-name: scale-up-center;
+    animation-iteration-count: initial;
+    p{
+        border: none;
+        background-color: transparent;
+        width: 90%;
+    }
+}
+ol li{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-weight: bolder;
+    list-style-type: square;
+}
+form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: double 5px black;
+}
+
+form label{
+    margin-left: 5px;
+}
+
+form input{
+    margin-left: 2px;
+}
+
+form button{
+    margin-left: 5px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    @include medidas;
+}
+
+.beneficios {
+    list-style-type: square;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+    width: 30%;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    @include medidas; 
+}
+.contacto {
+    margin-left: 10px;
+    width: 50%;
+}
+
+textarea{
+    margin-left: 10px;
+}
+
+.cardLocal{
+    display: block;
+    margin-top: 50px;
+    border: solid 3px black;
+    background-image: url("https://media.istockphoto.com/vectors/mandala-line-frame-background-vector-id1264393479?k=20&m=1264393479&s=612x612&w=0&h=3idxnqorMHit1j98V_05_V_qPl-GkJWXQk0uAMg2d60=");
+    background-repeat: repeat-x;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-name: scale-up-center;
+    animation-iteration-count: initial;
+}
+
+.caption{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #fff;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 850px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.top{
+    background-color: #060;
+    color: white;
+    font-weight: 700;
+}
+
+.table > div {
+    padding: 12px;
+    text-align: center;
+    border-left: 1px solid #060;
+    border-top: 1px solid #060;
+}
+
+.rightBorder{
+    border-right: 1px solid #060;
+}
+
+.bottomBorder{
+    border-bottom: 1px solid #060;
+}
+
+.leftBorder{
+    border-left: 1px solid #060;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 330px;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.sabiasQue{
+    font-family: 'Poppins', sans-serif;
+    color: #6C567B;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #6C567B;
+}
+.body {
+    grid-area: body;
+}
+
+.table {
+    grid-area: table;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 97%;
+}
+.info {
+    grid-area: info;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.grilla {
+    display: grid;
+    grid-template-areas: 
+     "header  header  header"
+     "body    body    body"
+     "table   table   table"
+     "footer  footer  footer";
+     grid-template-rows:225px 2fr 75px;
+     grid-template-columns: 20% auto 15%;
+}
+.grilla1 {
+    display: grid;
+    grid-template-areas: 
+     "header  header  header"
+     "info    info    info"
+     "info    info    info"
+     "footer  footer  footer";
+     grid-template-rows:225px 2fr 75px;
+     grid-template-columns: 20% auto 15%;
+}
+.grilla2 {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "datos"
+    "footer";
+    grid-template-rows: 100px 70vh 2fr;
+    grid-template-columns: 100%;
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
