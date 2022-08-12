@@ -301,6 +301,19 @@ a {
   flex-direction: row;
 }
 
+.form-control {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.form-label{
+  margin-left: 10px;
+}
+
+ul li {
+  color: white;
+}
+
 .grilla {
   display: grid;
   grid-template-areas: "header  header  header" "body    body    body" "table   table   table" "footer  footer  footer";
