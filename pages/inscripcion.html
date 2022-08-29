@@ -46,41 +46,56 @@
       <section class="inscripcion">
         <h2 class="bgDark">Ingresá tus datos</h2>
         <form class="recuadro">
-            <label for="nombre_apellido">Ingrese nombre y apellido</label>
-            <input type="text" name="nombre_apellido" />
-            <br>
-            <label for="edad">Ingrese edad</label>
-            <input type="number" name="edad" />
-            <br>
-            <label for="email">Ingrese su E-mail</label>
-            <input type="text" name="email" />
-            <br>
-            <label for="dni">Ingrese su DNI</label>
-            <input type="text" name="dni">
-            <br>
-            <fieldset>
-                <legend>Seleccione el paquete que desea</legend>
-             <input type="radio" value="pack1">
-             <label for="pack1">7 días, 2 días de descanso + Excursión a Mar del Plata</label>
-             <br>
-             <input type="radio" value="pack2">
-             <label for="pack2">7 días, 2 días de descanso</label>
-             <br>
-             <input type="radio" value="pack3">
-             <label for="pack3">14 días, 4 días de descanso + Excursión a Mar del Plata</label>
-             <br>
-             <input type="radio" value="pack4">
-             <label for="pack4">14 días, 4 días de descanso</label>
-             <br>
-            </fieldset>
-            <label for="pagos">Seleccione un método de pago</label>
-            <select name="pagos">
-                <option value="efectivo">Efectivo</option>
-                <option value="transferencia">Transferencia bancaria</option>
-                <option value="tarjeta">Tarjeta de débito o crédito</option>
-                <option value="mp">MercadoPago</option>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre y apellido</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Perez">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Edad</label>
+            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="18">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">E-mail</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="juanperez@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Ingrese DNI</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="00001">
+          </div>
+           <h6>Seleccione el paquete que desea</h6>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              7 días, 2 días de descanso + Excursión a Mar del Plata
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              7 días, 2 días de descanso
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              14 días, 4 días de descanso + Excursión a Mar del Plata
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              14 días, 4 días de descanso
+            </label>
+          </div>
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <option selected>Seleccione un metodo de pago</option>
+              <option value="1">Efectivo</option>
+              <option value="2">Transferencia bancaria</option>
+              <option value="3">Tarjeta de debito o credito</option>
+              <option value="4">Mercado Pago</option>
             </select>
-            <br>
+          </div>
             <button type="submit">Inscribirse</button>
         </form>
       </section>
@@ -103,10 +118,10 @@
               </a>
             </section>
             <ul class="redes">
-                <li><a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                <li><a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                <li><a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <li><a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" class="white">Instagram</a></li>
+                <li><a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="white">Facebook</a></li>
+                <li><a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer" class="white">Twitter</a></li>
+                <li><a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer" class="white">YouTube</a></li>
             </ul>
         </div>
      </footer>

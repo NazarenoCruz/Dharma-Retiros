@@ -56,7 +56,7 @@ p {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   color: white;
   border: 1px solid #f1f1f1;
-  width: 70%;
+  width: 60%;
 }
 
 h2 {
@@ -95,12 +95,6 @@ h3 {
   font-size: 25px;
   width: 50%;
   border-radius: 5px;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-name: scale-up-center;
-          animation-name: scale-up-center;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
 }
 .cardLocal p {
   border: none;
@@ -124,8 +118,8 @@ form {
   border: double 5px black;
 }
 
-form label {
-  margin-left: 5px;
+.form-label {
+  margin-left: 10px;
 }
 
 form input {
@@ -174,29 +168,11 @@ textarea {
   margin-left: 10px;
 }
 
-.cardLocal {
-  display: block;
-  margin-top: 50px;
-  border: solid 3px black;
-  background-image: url("https://media.istockphoto.com/vectors/mandala-line-frame-background-vector-id1264393479?k=20&m=1264393479&s=612x612&w=0&h=3idxnqorMHit1j98V_05_V_qPl-GkJWXQk0uAMg2d60=");
-  background-repeat: repeat-x;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-right: 5px;
-  padding-left: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-weight: bolder;
-  color: white;
-  font-size: 25px;
-  width: 50%;
-  border-radius: 5px;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+.cardLocal:hover {
   -webkit-animation-name: scale-up-center;
           animation-name: scale-up-center;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .caption {
@@ -306,12 +282,13 @@ a {
   margin-left: 10px;
 }
 
-.form-label{
-  margin-left: 10px;
-}
-
 ul li {
   color: white;
+}
+
+.form-floating {
+  width: 70%;
+  font-weight: bold;
 }
 
 .grilla {
@@ -342,18 +319,18 @@ ul li {
 
 @-webkit-keyframes scale-up-center {
   0% {
-    transform: scale(0.5);
+    transform: scale(1);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.2);
   }
 }
 @keyframes scale-up-center {
   0% {
-    transform: scale(0.5);
+    transform: scale(1);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.2);
   }
 }
 .redes {
@@ -431,7 +408,7 @@ img {
 }
 
 .mandala {
-  height: 250px;
+  height: 350px;
   width: auto;
   margin-left: 10px;
   margin-right: 20px;
@@ -666,6 +643,7 @@ img {
   h4 {
     color: white;
     font-size: 15px;
+    margin-top: 205px;
   }
   .contacto {
     border: none;
@@ -681,6 +659,251 @@ img {
   }
   .bgDark {
     color: white;
+  }
+  .form-flotating {
+    width: 40%;
+    height: auto;
+  }
+  .form-flotating {
+    width: 40%;
+    height: auto;
+  }
+  .recuadro {
+    background: none;
+    border: 0cm;
+  }
+}
+@media (max-width: 576px) {
+  .grilla {
+    margin: 0;
+    grid-template-areas: "header header" "body   body" "table  table" "footer footer";
+    grid-template-columns: 102vh;
+    grid-template-rows: 2fr;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    align-self: center;
+    margin-top: 20px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    grid-area: header;
+    text-align: center;
+  }
+  .imgIndex {
+    height: 350px;
+    width: auto;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .table {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  .caption {
+    margin-left: 200px;
+  }
+  .grilla1 {
+    margin: 0;
+    grid-template-areas: "header" "info" "footer";
+    grid-template-columns: 90vh;
+    grid-template-rows: 1fr;
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+  }
+  .monje {
+    height: auto;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .yoga, .amuleto, .playa {
+    height: auto;
+    width: 400px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .mandala {
+    height: auto;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .chakras {
+    height: auto;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .caminata {
+    height: auto;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .amuleto, .playa {
+    height: auto;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .playa {
+    height: auto;
+    width: 450px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .barraNav {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  ol {
+    font-family: "Poppins", sans-serif;
+    margin-left: 14%;
+    font-weight: bolder;
+    list-style-type: square;
+    align-self: center;
+    margin-top: 15px;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  .info {
+    grid-area: info;
+  }
+  .beneficios {
+    list-style-type: square;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    color: black;
+    margin-left: 225px;
+    width: 45%;
+    font-size: 26px;
+  }
+  .imgB {
+    height: 370px;
+    width: auto;
+    border-radius: 5px;
+    align-self: center;
+    margin-right: 88px;
+  }
+  .b1 {
+    margin-left: 200px;
+  }
+  .grilla2 {
+    display: grid;
+    grid-template-areas: "header" "datos" "datos" "footer";
+    grid-template-rows: 38vh;
+    grid-template-columns: 100%;
+  }
+  .imgNosotros {
+    height: auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .container {
+    margin-left: 80px;
+    width: 90%;
+    height: auto;
+  }
+  button {
+    margin-left: 260px;
+  }
+  .sabiasQue {
+    text-align: center;
+    align-self: center;
+    margin-top: 15px;
+  }
+  form {
+    margin-bottom: 20px;
+    margin-left: 175px;
+    color: white;
+    height: 400px;
+  }
+  h4 {
+    color: white;
+    font-size: 15px;
+    margin-top: 265px;
+  }
+  .contacto {
+    border: none;
+    margin-left: 250px;
+  }
+  .mb-3 {
+    margin-left: 225px;
+  }
+  .form-label {
+    color: white;
+    margin-left: 75px;
+  }
+  h5 {
+    margin-top: 85px;
+  }
+  body {
+    background-image: url("https://img.freepik.com/fotos-premium/templo-hindu-mariamman-o-chua-ba-mariamman-ciudad-ho-chi-minh-vietnam-detalle-gopuram-sobre-entrada-templo-hindu-mariamman-templo-fue-construido-finales-siglo-xix_479694-763.jpg?w=2000");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .bgDark {
+    color: white;
+  }
+  .form-flotating {
+    width: 40%;
+    height: auto;
+  }
+  .recuadro {
+    background: none;
+    border: 0cm;
   }
 }
 @media (max-width: 480px) {
@@ -871,6 +1094,6 @@ img {
     width: 100%;
   }
   h4 {
-    margin-top: 115px;
+    margin-top: 265px;
   }
 }/*# sourceMappingURL=style.css.map */

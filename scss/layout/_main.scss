@@ -21,7 +21,7 @@ p{
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     border: 1px solid #f1f1f1;
-    width: 70%;
+    width: 60%;
 }
 h2{
     font-family: 'Poppins', sans-serif;
@@ -56,9 +56,6 @@ h3{
     font-size: 25px;
     width: 50%;
     border-radius: 5px;
-    animation-duration: 1s;
-    animation-name: scale-up-center;
-    animation-iteration-count: initial;
     p{
         border: none;
         background-color: transparent;
@@ -80,9 +77,10 @@ form{
     border: double 5px black;
 }
 
-form label{
-    margin-left: 5px;
+.form-label{
+    margin-left: 10px;
 }
+
 
 form input{
     margin-left: 2px;
@@ -122,26 +120,9 @@ textarea{
     margin-left: 10px;
 }
 
-.cardLocal{
-    display: block;
-    margin-top: 50px;
-    border: solid 3px black;
-    background-image: url("https://media.istockphoto.com/vectors/mandala-line-frame-background-vector-id1264393479?k=20&m=1264393479&s=612x612&w=0&h=3idxnqorMHit1j98V_05_V_qPl-GkJWXQk0uAMg2d60=");
-    background-repeat: repeat-x;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-right: 5px;
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-weight: bolder;
-    color: white;
-    font-size: 25px;
-    width: 50%;
-    border-radius: 5px;
-    animation-duration: 1s;
+.cardLocal:hover{
     animation-name: scale-up-center;
-    animation-iteration-count: initial;
+    animation-duration: 1s;
 }
 
 .caption{
@@ -243,9 +224,14 @@ a {
 }
 .form-control{
     width: 50%;
+    margin-left: 10px;
 }
 ul li{
     color: white;
+}
+.form-floating{
+    width: 70%;
+    font-weight: bold;
 }
 .grilla {
     display: grid;
@@ -281,23 +267,24 @@ ul li{
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+
 @-webkit-keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
       -webkit-transform: scale(1);
               transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
     }
   }
 @keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
       -webkit-transform: scale(1);
               transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
     }
   }
