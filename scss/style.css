@@ -446,18 +446,18 @@ img {
   margin-bottom: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .grilla {
     margin: 0;
-    grid-template-areas: "header header" "body   body" "table  table" "footer footer";
-    grid-template-columns: 102vh;
+    grid-template-areas: "header" "body" "table" "footer";
+    grid-template-columns: 90vh;
     grid-template-rows: 2fr;
   }
   p {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
     text-align: center;
-    font-size: 23px;
+    font-size: 14px;
     align-self: center;
     margin-top: 20px;
   }
@@ -486,6 +486,11 @@ img {
     grid-area: header;
     text-align: center;
   }
+  body {
+    background-image: url("https://img.freepik.com/fotos-premium/templo-hindu-mariamman-o-chua-ba-mariamman-ciudad-ho-chi-minh-vietnam-detalle-gopuram-sobre-entrada-templo-hindu-mariamman-templo-fue-construido-finales-siglo-xix_479694-763.jpg?w=2000");
+    background-repeat: repeat;
+    background-size: cover;
+  }
   .imgIndex {
     height: 400px;
     width: auto;
@@ -513,7 +518,7 @@ img {
   }
   .monje {
     height: auto;
-    width: 500px;
+    width: 300px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -521,15 +526,15 @@ img {
   }
   .yoga, .amuleto, .playa {
     height: auto;
-    width: 500px;
-    margin-left: 25px;
+    width: 300px;
+    margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
     align-self: center;
   }
   .mandala {
     height: auto;
-    width: 370px;
+    width: 200px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -537,7 +542,7 @@ img {
   }
   .chakras {
     height: auto;
-    width: 550px;
+    width: 350px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -545,7 +550,7 @@ img {
   }
   .caminata {
     height: auto;
-    width: 500px;
+    width: 300px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -553,7 +558,7 @@ img {
   }
   .amuleto, .playa {
     height: auto;
-    width: 500px;
+    width: 300px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -561,7 +566,7 @@ img {
   }
   .playa {
     height: auto;
-    width: 500px;
+    width: 300px;
     margin-right: 20px;
     border-radius: 5px;
     align-self: center;
@@ -575,13 +580,12 @@ img {
     flex-direction: row;
     justify-content: space-around;
   }
-  ol {
+  ol li {
     font-family: "Poppins", sans-serif;
-    margin-left: 14%;
+    margin-left: 20px;
     font-weight: bolder;
     list-style-type: square;
     align-self: center;
-    margin-top: 15px;
   }
   .footer {
     grid-area: footer;
@@ -595,23 +599,18 @@ img {
     font-weight: bolder;
     color: black;
     margin-left: 225px;
-    width: 45%;
-    font-size: 26px;
   }
   .imgB {
-    height: 420px;
+    height: 320px;
     width: auto;
     border-radius: 5px;
     align-self: center;
-    margin-right: 88px;
-  }
-  .b1 {
-    margin-left: 200px;
+    margin-right: 70px;
   }
   .grilla2 {
     display: grid;
-    grid-template-areas: "header" "datos" "datos" "footer";
-    grid-template-rows: 38vh;
+    grid-template-areas: "header" "datos" "footer";
+    grid-template-rows: 30vh;
     grid-template-columns: 100%;
   }
   .imgNosotros {
@@ -619,58 +618,24 @@ img {
     width: 550px;
     display: flex;
     flex-direction: column;
-    align-self: center;
   }
   .container {
-    margin-left: 80px;
-    width: 90%;
+    margin-left: 90px;
+    width: 80%;
     height: auto;
   }
   button {
     margin-left: 0px;
   }
-  .sabiasQue {
-    text-align: center;
-    align-self: center;
-    margin-top: 15px;
+  .b1 {
+    margin-right: 170px;
   }
   form {
-    margin-bottom: 20px;
-    margin-left: 100px;
-    color: white;
-    height: 400px;
+    width: 100%;
+    margin-right: 100px;
   }
   h4 {
-    color: white;
-    font-size: 15px;
-    margin-top: 205px;
-  }
-  .contacto {
-    border: none;
-    margin-left: 250px;
-  }
-  h5 {
-    margin-top: 85px;
-  }
-  body {
-    background-image: url("https://img.freepik.com/fotos-premium/templo-hindu-mariamman-o-chua-ba-mariamman-ciudad-ho-chi-minh-vietnam-detalle-gopuram-sobre-entrada-templo-hindu-mariamman-templo-fue-construido-finales-siglo-xix_479694-763.jpg?w=2000");
-    background-repeat: repeat;
-    background-size: cover;
-  }
-  .bgDark {
-    color: white;
-  }
-  .form-flotating {
-    width: 40%;
-    height: auto;
-  }
-  .form-flotating {
-    width: 40%;
-    height: auto;
-  }
-  .recuadro {
-    background: none;
-    border: 0cm;
+    margin-top: 265px;
   }
 }
 @media (max-width: 576px) {
@@ -873,18 +838,23 @@ img {
   h4 {
     color: white;
     font-size: 15px;
-    margin-top: 265px;
+    margin-top: 285px;
   }
   .contacto {
     border: none;
     margin-left: 250px;
   }
   .mb-3 {
-    margin-left: 225px;
+    margin-left: 10px;
   }
   .form-label {
     color: white;
-    margin-left: 75px;
+    margin-left: 25px;
+    text-align: center;
+  }
+  .form-select {
+    margin-left: 0px;
+    margin-top: 20px;
   }
   h5 {
     margin-top: 85px;
@@ -906,18 +876,18 @@ img {
     border: 0cm;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .grilla {
     margin: 0;
-    grid-template-areas: "header" "body" "table" "footer";
-    grid-template-columns: 90vh;
+    grid-template-areas: "header header" "body   body" "table  table" "footer footer";
+    grid-template-columns: 102vh;
     grid-template-rows: 2fr;
   }
   p {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
     text-align: center;
-    font-size: 14px;
+    font-size: 23px;
     align-self: center;
     margin-top: 20px;
   }
@@ -946,11 +916,6 @@ img {
     grid-area: header;
     text-align: center;
   }
-  body {
-    background-image: url("https://img.freepik.com/fotos-premium/templo-hindu-mariamman-o-chua-ba-mariamman-ciudad-ho-chi-minh-vietnam-detalle-gopuram-sobre-entrada-templo-hindu-mariamman-templo-fue-construido-finales-siglo-xix_479694-763.jpg?w=2000");
-    background-repeat: repeat;
-    background-size: cover;
-  }
   .imgIndex {
     height: 400px;
     width: auto;
@@ -978,7 +943,7 @@ img {
   }
   .monje {
     height: auto;
-    width: 300px;
+    width: 500px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -986,15 +951,15 @@ img {
   }
   .yoga, .amuleto, .playa {
     height: auto;
-    width: 300px;
-    margin-left: 10px;
+    width: 500px;
+    margin-left: 25px;
     margin-right: 20px;
     border-radius: 5px;
     align-self: center;
   }
   .mandala {
     height: auto;
-    width: 200px;
+    width: 370px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -1002,7 +967,7 @@ img {
   }
   .chakras {
     height: auto;
-    width: 350px;
+    width: 550px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -1010,7 +975,7 @@ img {
   }
   .caminata {
     height: auto;
-    width: 300px;
+    width: 500px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -1018,7 +983,7 @@ img {
   }
   .amuleto, .playa {
     height: auto;
-    width: 300px;
+    width: 500px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 5px;
@@ -1026,7 +991,7 @@ img {
   }
   .playa {
     height: auto;
-    width: 300px;
+    width: 500px;
     margin-right: 20px;
     border-radius: 5px;
     align-self: center;
@@ -1040,12 +1005,13 @@ img {
     flex-direction: row;
     justify-content: space-around;
   }
-  ol li {
+  ol {
     font-family: "Poppins", sans-serif;
-    margin-left: 20px;
+    margin-left: 14%;
     font-weight: bolder;
     list-style-type: square;
     align-self: center;
+    margin-top: 15px;
   }
   .footer {
     grid-area: footer;
@@ -1059,18 +1025,23 @@ img {
     font-weight: bolder;
     color: black;
     margin-left: 225px;
+    width: 45%;
+    font-size: 26px;
   }
   .imgB {
-    height: 320px;
+    height: 420px;
     width: auto;
     border-radius: 5px;
     align-self: center;
-    margin-right: 70px;
+    margin-right: 88px;
+  }
+  .b1 {
+    margin-left: 200px;
   }
   .grilla2 {
     display: grid;
-    grid-template-areas: "header" "datos" "footer";
-    grid-template-rows: 20vh;
+    grid-template-areas: "header" "datos" "datos" "footer";
+    grid-template-rows: 38vh;
     grid-template-columns: 100%;
   }
   .imgNosotros {
@@ -1078,22 +1049,65 @@ img {
     width: 550px;
     display: flex;
     flex-direction: column;
+    align-self: center;
   }
   .container {
-    margin-left: 90px;
-    width: 80%;
+    margin-left: 80px;
+    width: 90%;
     height: auto;
   }
   button {
     margin-left: 0px;
   }
-  .b1 {
-    margin-right: 170px;
+  .sabiasQue {
+    text-align: center;
+    align-self: center;
+    margin-top: 15px;
   }
   form {
-    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: white;
+    height: 400px;
   }
   h4 {
-    margin-top: 265px;
+    color: white;
+    font-size: 15px;
+    margin-top: 285px;
+  }
+  .contacto {
+    border: none;
+    margin-left: 250px;
+  }
+  h5 {
+    margin-top: 85px;
+  }
+  body {
+    background-image: url("https://img.freepik.com/fotos-premium/templo-hindu-mariamman-o-chua-ba-mariamman-ciudad-ho-chi-minh-vietnam-detalle-gopuram-sobre-entrada-templo-hindu-mariamman-templo-fue-construido-finales-siglo-xix_479694-763.jpg?w=2000");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .bgDark {
+    color: white;
+  }
+  .form-flotating {
+    width: 40%;
+    height: auto;
+  }
+  .form-flotating {
+    width: 40%;
+    height: auto;
+  }
+  .form-select {
+    height: 35px;
+    width: auto;
+    margin-top: 20px;
+  }
+  .recuadro {
+    background: none;
+    border: 0cm;
+  }
+  .mb-3 {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
